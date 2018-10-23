@@ -1,0 +1,11 @@
+li:nth-child(odd){
+    color: aqua;
+}
+
+.redColor{
+    border: 1px solid red;
+}
+
+#greenColor{
+    border: 1px solid rgb(21, 255, 0);
+}
