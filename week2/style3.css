@@ -1,0 +1,27 @@
+li:first-child{
+    background-color: rgba(255, 0, 0, 0.692);
+}
+
+li:last-child{
+    background-color: #00ff62;
+}
+
+li:nth-child(odd){
+    color: rgb(255, 255, 0);
+}
+
+li:nth-child(even){
+    color: rgba(255, 0, 170, 0.856);
+}
+
+li:nth-child(4){
+    border: 1px dotted blue;
+}
+
+li:only-child {
+    background: #00b7ffbb;
+}
+
+li:nth-child(5n+1){
+    border: 1px dotted darkgreen;
+}
