@@ -1,0 +1,17 @@
+body{background-color: rgba(0, 0, 0, 0.795);}
+
+div p{
+    background-color: aqua;
+}
+
+div > p{
+    background-color: bisque;
+}
+
+div ~ p{
+    background-color: crimson;
+} 
+
+div + p{
+    background-color: darkorange
+}
