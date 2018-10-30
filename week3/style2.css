@@ -1,0 +1,16 @@
+body{
+    background-color: bisque;
+}
+
+div{
+    border: 1px solid black;
+}
+
+.inline{
+    background-color: red;
+}
+
+.block{
+    background-color: red;
+    display: block;
+}
