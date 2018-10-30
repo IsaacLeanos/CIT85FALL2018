@@ -1,0 +1,14 @@
+body {
+    width: 4000px;
+    display: flex;
+    flex-direction: row;
+}
+div {
+  margin: 0 40px;
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  border: 1px solid yellow;
+  border-radius: 75px 5px; 
+  transform: rotate(43deg);
+}
