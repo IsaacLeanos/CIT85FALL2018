@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');
+
+body{
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: bisque;
+}
+
+div{
+    border: 1px solid black;
+}
+
+p{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 25px;
+}
+
+.serif{
+    font-family: serif;
+}
+.san-serif{
+    font-family: sans-serif;
+}
+.roboto-300{
+    font-family: ' Roboto', 'Lucida Sans', 'Lucida Sans Regular';
+}
+.roboto-400{
+    font-family: ' Roboto', 'Lucida Sans', 'Lucida Sans Regular';
+    font-weight: 400;
+}
+.roboto-500{
+    font-family: ' Roboto', 'Lucida Sans', 'Lucida Sans Regular';
+    font-weight: 500;
+}
+.letter-spacing{
+    letter-spacing: 4px;
+}
+.shadow-text{
+    letter-spacing: 4px;
+    text-shadow: 2px 14px 3px black;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline; 
+}
+.line-through{
+    text-decoration: line-through;
+}
+.indent{
+    text-indent: 8%;
+}
