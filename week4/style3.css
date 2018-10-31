@@ -11,6 +11,23 @@ body{
     font-family: 'Cinzel', serif;
     position: relative;
 }
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav ul li{
+    margin: 15px 15px;
+    padding: 5px 5px;
+}
+nav ul li:hover{
+    box-sizing: border-box;
+    border: 1px solid yellow;
+    margin: 15px 15px;
+}
 .container{
     display: grid;
     grid-template-columns: 1fr 7fr 7fr 1fr;
@@ -35,7 +52,7 @@ header .bgImage{
     z-index: -1;
     height: 425px;
     width: 100%;
-    background-image: url(./imgs/Boruto\ Sage\ Mode.jpg);
+    background-image: url(./imgs/BorutoSageMode.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
