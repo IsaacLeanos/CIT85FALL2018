@@ -1,0 +1,61 @@
+body {
+    background: #f5d9d5;
+    font-family: "Nunito", sans-serif;
+}
+
+/* ====================================================================
+                            NAVIGATION
+=======================================================================*/
+
+#main-nav {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#main-nav .nav-link {
+    color: white;
+}
+
+#main-nav .nav-link:hover {
+    color: #EA1C2C;
+}
+
+#main-nav .navbar-brand {
+    color: #EA1C2C;
+    font-size: 1.5rem;
+}
+
+/* ====================================================================
+                            HEADERS
+=======================================================================*/
+
+.first-title{
+    text-shadow: 9px 9px 10px rgba(223, 10, 46, 0.63);
+    font-size: 1.7rem;
+}
+.tlaxcalli h2{
+    color: #EA1C2C;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+/* ====================================================================
+                            PARAGRAPHS
+=======================================================================*/
+
+.tlaxcalli p {
+    color: #f498b8;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+} 
+
+/* ====================================================================
+                            FOOTER
+=======================================================================*/
+
+footer{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #EA1C2C;
+}
