@@ -18,3 +18,40 @@ h1{
 p{
     padding-left: 7px;
 }
+
+
+.red{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    max-width: 260;
+    margin:15 auto;
+
+}
+.blue{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    max-width: 260;
+    margin:15 auto;
+
+    
+}
+.yellow{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    max-width: 260;
+    margin:15 auto;
+
+    
+}
+.green{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    max-width: 260;
+    margin:15 auto;
+
+
+}
