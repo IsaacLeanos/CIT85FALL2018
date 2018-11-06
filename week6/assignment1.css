@@ -1,0 +1,60 @@
+body{
+    border:1px solid black;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid blue;
+}
+
+.row div{
+    height: 30px;
+    width: 30px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.seperate{
+    height: 40px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    align-items: flex-end;
+}
+
+.column div{
+    height: 30px;
+    width: 30px;
+    border: 1px solid green;
+    text-align: center;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(9, 255, 0);
+    align-items: center;
+}
+
+.center div{
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(128, 0, 122);
+    text-align: center;
+}
+.center2{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(0, 255, 242);
+    justify-content: center;
+}
+
+.center2 div{
+    height: 30px;
+    width: 30px;
+    border: 1px solid rgb(223, 139, 43);
+    text-align: center;
+}
