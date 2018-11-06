@@ -1,0 +1,20 @@
+.main{
+    border: 1px solid red;
+}
+
+.img{
+    border: 3px solid green;
+    height: 200px;
+    width: 250px;
+    border-radius: 60%;
+    max-width: 260;
+    margin:15 auto;
+    background-color: aquamarine;
+}
+
+h1{
+    padding-left: 7px;
+}
+p{
+    padding-left: 7px;
+}
