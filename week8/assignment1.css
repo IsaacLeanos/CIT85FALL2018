@@ -1,0 +1,50 @@
+
+body{
+    padding: 0;
+    margin: 0 0;
+    /* width: 1279px; */
+    width: auto;
+    /* height: 100vh; */
+    height: 100%;
+    border: 1px solid red;
+    box-sizing: border-box;
+    
+}
+
+#main{
+    border: 1px solid green;
+    width: 99.9%;
+    height: 99.8%;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width:1269px){
+    body{
+        padding: 0;
+        margin: 0 auto;
+        width: auto;
+        /* width: 1279px; */
+
+        height: 100%;
+        border: 1px solid red;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+    #main{
+        border: 1px solid green;
+        width: 99.9%;
+        height: 99.8%;
+    }
+    
+    img{
+        height: 100%;
+        width: 100%;
+    }
+}
