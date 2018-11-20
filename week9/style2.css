@@ -1,0 +1,22 @@
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+div{
+    height: 50px;
+    width: 50px;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    position: relative;
+    top: 273px;
+    left: 270px;
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}

@@ -1,0 +1,16 @@
+body{
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+
+div{
+    overflow-y: scroll;    
+    width: 95%;
+    height: 100px;
+    background-color: rgba(217, 219, 219, 0.055);
+    position: fixed;
+    top:550px;
+    /* left: 5px;
+    right: 35px; */
+}

@@ -1,0 +1,43 @@
+body{
+    max-width: 1200px;
+    margin: 5 auto;
+}
+
+section{
+    height: 600px;
+    padding: 5px;
+}
+
+.first{
+    height: 55%;
+    border: 2px solid salmon;
+    overflow-y: scroll;
+}
+.second{
+    margin-top: 10px;
+    height: 38%;
+    border: 2px solid salmon;
+}
+
+.first-img{
+    height: 100px;
+    width: 100px;
+    /* display: inline-block; */
+    float: right;
+    border: 2px solid salmon;
+    margin: 5px;
+}
+
+.second-img{
+    height: 100px;
+    width: 100px;
+    /* display: inline-block; */
+    float: left;
+    border: 2px solid salmon;
+    margin: 5px;
+}
+
+
+p{
+    padding: 7px;
+}
